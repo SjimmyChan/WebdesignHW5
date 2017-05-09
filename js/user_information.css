@@ -1,0 +1,64 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  height: 120px;
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(0,126,255,0.8);
+}
+
+.nav h1{
+  color: #FFF;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: 50px;
+}
+
+.nav ul{
+  display: inline-block;
+  float: right;
+  position: absolute;
+  /*left:800px;*/
+  right: 20px;
+  margin-top: 40px;
+}
+
+.nav ul li{
+  display: inline-block;
+}
+
+.mui-panel{
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mui-panel h1{
+  color: rgba(0,126,255,0.8);
+  margin-left: 20px;
+}
+
+.sign-in{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  color: rgba(0,126,255,0.8);
+}
+
+.nav button{
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 30px;
+}
+
+.mui-panel .mui-btn{
+  margin-left: 35%;
+}

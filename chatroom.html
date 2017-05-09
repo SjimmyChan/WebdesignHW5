@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChatRoom</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- load MUI -->
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <link href="http://cdn.muicss.com/mui-0.9.16/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="js/chatroom.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="http://cdn.muicss.com/mui-0.9.16/js/mui.min.js"></script>
+    <script src="http://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+  </head>
+  <body>
+    <div class="nav">
+      <h1>ChatRoom</h1>
+      <ul>
+        <a class="mui-btn mui-btn--primary mui-btn--raised" href="user_information.html">information</a>
+        <a class="mui-btn mui-btn--primary mui-btn--raised" href="user_update.html">update</a>
+        <a id="sign-out" class="mui-btn mui-btn--primary mui-btn--raised" href="index.html">sign out</a>
+        <a class="mui-btn mui-btn--primary mui-btn--raised" href="chatroom.html">chat</a>
+      </ul>
+    </div>
+    <!-- example content -->
+    <div class="mui-container">
+      <div class="mui-panel">
+        <h1 id="page">Chat</h1>
+        <div id="example-messages" class="chat-area">
+        </div>
+        <div class="sign-in">
+          <!-- Simple Textfield -->
+          <div class="row">
+            <form class="col s12" name="form1">
+              <div class="row">
+                <div class="input-field col s9 offset-s12">
+                  <div class="col s9">
+                    <input id="word" type="text" class="validate">
+                    <label for="word">Type Some Message...</label>
+                  </div>
+                  <div class="col s3">
+                    <button id="submit" class="mui-btn mui-btn--primary mui-btn--raised">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+    //cat();
+    </script>
+  </body>
+</html>
